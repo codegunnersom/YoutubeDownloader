@@ -181,7 +181,7 @@ def ytd():
     high_Res_yt_video = yt.streams.get_by_itag(itag_list[0])
 
     #Downloading the Video using PyTubeFix Download Function, with specified outputpath and filename. 
-    high_Res_yt_video.download(output_path='/Users/somendrasaini/Desktop/yt-dnldr',filename='video.mp4')
+    high_Res_yt_video.download(output_path='/Users/somendrasaini/Desktop/yt-dnldr/Python Script',filename='video.mp4')
 
 
 
@@ -251,7 +251,7 @@ def ytd():
 
 
     high_Res_yt_audio = yt.streams.get_by_itag(itag_list_bit[0])
-    high_Res_yt_audio.download(output_path='/Users/somendrasaini/Desktop/yt-dnldr',filename='audio', mp3=True)
+    high_Res_yt_audio.download(output_path='/Users/somendrasaini/Desktop/yt-dnldr/Python Script',filename='audio', mp3=True)
 
 
 
